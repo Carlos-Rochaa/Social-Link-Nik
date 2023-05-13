@@ -10,18 +10,18 @@
 
 :root {
   --cor-primaria: #FFFFFF;
-  --cor-secundaria: #EBD7D3; 
-  --cor-terciaria: #E8B4B8;
+  --cor-secundaria: #F7EBF0; 
+  --cor-terciaria: #FB9EC0;
 }
 
 body, html{
-  background-color: var(--cor-terciaria);
+  background-color: var(--cor-primaria);
 }
 
 .container {
   width: 600px;
   height: 650px;
-  background-color: #FFFFFF;
+  background-color: var(--cor-terciaria);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -38,22 +38,11 @@ body, html{
   justify-content: center;
 }
 
-/*.tree-container .avatar{
-  width: 250px;
-  height: 250px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border: 2px solid var(--cor-terciaria);
-  border-radius: 50%;
-}*/
 
 .tree-container .avatar img {
-  width: 300px;
-  height: 300px;
-  border: 2px solid var(--cor-terciaria);
+  width: 270px;
+  height: 270px;
+  border: 0px solid var(--cor-primaria);
   border-radius: 50%;
   
 }
@@ -69,7 +58,7 @@ body, html{
   width: 350px;
   align-items: center;
   justify-content: center ;
-  border: 2px solid var(--cor-terciaria);
+  border: 3px solid var(--cor-primaria);
   border-radius: 10px;
   margin-top: 16px;
   transform: scale(0.9);
@@ -95,7 +84,7 @@ body, html{
   text-transform: uppercase;
   text-align: center;
   padding: 12px 0px;
-  color: var(--cor-terciaria);
+  color: var(--cor-primaria);
   font-weight: bold;
 }
 
@@ -140,7 +129,7 @@ body, html{
   .tree-container .avatar img {
     width: 200px;
     height: 200px;
-    border: 2px solid var(--cor-terciaria);
+    border: 2px solid var(--cor-primaria);
     border-radius: 50%;
     
   }
@@ -157,7 +146,7 @@ body, html{
     height: 37px;
     align-items: center;
     justify-content: center ;
-    border: 2px solid var(--cor-terciaria);
+    border: 2px solid var(--cor-primaria);
     border-radius: 10px;
     margin-top: 16px;
     transform: scale(0.9);
