@@ -21,7 +21,7 @@ html {
 
 .container {
   width: 600px;
-  height: 650px;
+  height: 100vh;
   background-color: var(--cor-terciaria);
   position: absolute;
   top: 50%;
@@ -32,7 +32,7 @@ html {
 
 .container .tree-container {
   display: flex;
-  padding-top: 20px;
+  padding-top: 220px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -98,6 +98,7 @@ html {
 
     display: flex;
     flex-direction: column;
+    padding-bottom: 200px;
   }
 
   .tree-container .avatar img {
