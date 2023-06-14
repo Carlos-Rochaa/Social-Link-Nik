@@ -39,9 +39,8 @@ html {
 }
 
 .tree-container .avatar img {
-  width: 270px;
-  height: 270px;
-  border: 0px solid var(--cor-primaria);
+  width: 280px;
+  height: 260px;
   border-radius: 50%;
 }
 
